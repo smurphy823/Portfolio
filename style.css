@@ -1,0 +1,77 @@
+/*Navbar*/
+#navbarNav {
+    justify-content: flex-end;
+}
+.navbar{ 
+    background-color:#0081f9;
+    margin-bottom: 10px;
+}
+
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+
+.nav-link{ margin-right: 1em !important;}
+
+.nav-link:hover{ background: #f4f4f4; color: #f97300; }
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{  background:#fff !important;}
+.navbar-dark .navbar-item .nav-link{
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+
+}
+
+.page-content { 
+    position: relative;
+    margin-bottom: 30px;
+}
+
+article {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/*About me page*/
+#aboutpage {
+    height: auto;
+    width: auto;
+    overflow: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: solid;
+    padding-bottom: 100px;
+}
+.about {
+    display: inline;
+}
+
+#wrap {
+   float: left;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+/*Portfolio page*/
+#portfolio {
+    height: auto;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+}
+
+img {
+    margin: 10px;
+}
+
+/*Contact page*/
+#contact {
+    height: 600px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+}
