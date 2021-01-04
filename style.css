@@ -3,7 +3,7 @@
     justify-content: flex-end;
 }
 .navbar{ 
-    background-color:#0081f9;
+    background-color:#030608;
     margin-bottom: 10px;
 }
 
@@ -11,7 +11,7 @@
 
 .nav-link{ margin-right: 1em !important;}
 
-.nav-link:hover{ background: #f4f4f4; color: #f97300; }
+.nav-link:hover{ background: #070303; color: #0081f9; }
 
 .navbar-collapse{ justify-content: flex-end;}
 
@@ -64,7 +64,7 @@ article {
 }
 
 img {
-    margin: 10px;
+    margin: 20px;
 }
 
 /*Contact page*/
