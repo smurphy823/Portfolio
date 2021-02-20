@@ -3,7 +3,7 @@
     justify-content: flex-end;
 }
 .navbar{ 
-    background-color:#030608;
+    background-color: pink;
     margin-bottom: 10px;
 }
 
@@ -11,7 +11,7 @@
 
 .nav-link{ margin-right: 1em !important;}
 
-.nav-link:hover{ background: #070303; color: #0081f9; }
+.nav-link:hover{ color: #0081f9; }
 
 .navbar-collapse{ justify-content: flex-end;}
 
