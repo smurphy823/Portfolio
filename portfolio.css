@@ -1,9 +1,11 @@
 .navbar{ 
     background-color: black;
-    margin-bottom: 10px;
 }
 
 ul {
     text-align: right;
 } 
+.footer{
+    text-align: right;
+}
 

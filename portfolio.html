@@ -1,75 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="portfolio.css">
-
-    <title>Portfolio</title>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-drk bg-drk">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Stephanie Murphy</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto mt-2">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" a href="https://github.com/smurphy823/Portfolio/blob/main/Stephs%20Resume.pdf">My Resume</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" a href="https://www.linkedin.com/in/stephanie-murphy-ba150a201/">Linkedin profile</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" a href="https://www.facebook.com/steph.murphy.7712/">Follow me on facebook</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <div class="container">
-            <div class="row">
-             <div class="col-md-3">
-                <img data-visualcompletion="media-vc-image" alt="Image may contain: 2 people, including Steph Murphy" class="ji94ytn4 r9f5tntg d2edcug0 r0294ipz" src="https://github.com/smurphy823/Portfolio/blob/main/Project1.png?raw=true" width="500" height="500">
-                </div>
-          
-            <div class="row">
-             <div class="col-md-3">
-                <img data-visualcompletion="media-vc-image" alt="Image may contain: Steph Murphy, standing and indoor" class="ji94ytn4 r9f5tntg d2edcug0 r0294ipz" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/121706340_820783368751307_1303560485885511997_o.jpg?_nc_cat=106&amp;ccb=2&amp;_nc_sid=730e14&amp;_nc_ohc=8Tzju4JMEAIAX9yr50V&amp;_nc_ht=scontent-ort2-1.xx&amp;oh=7f7c015dfb0fceb4f78384e040242841&amp;oe=6017846C" width="200" height="200">            
-                </div>
-          
-            <div class="row">
-             <div class="col-md-3">
-                <img data-visualcompletion="media-vc-image" alt="Image may contain: one or more people, people dancing, people standing, shoes, hat and indoor" class="ji94ytn4 r9f5tntg d2edcug0 r0294ipz" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/122920657_832134720949505_6109737301876715238_o.jpg?_nc_cat=105&amp;ccb=2&amp;_nc_sid=730e14&amp;_nc_ohc=7PjKBMUE6ZAAX8U8LwP&amp;_nc_ht=scontent-ort2-1.xx&amp;oh=e1eeba1216b344151b140fde4ed03a32&amp;oe=6014D818" width="200" height="200">
-                </div>
-          </div>      
-      </div>
-
-
-
-
-
-      <footer class="footer">
-        <div class="two-toned-footer-color">
-            <p class="text-center text-muted-footer">
-                &copy; copyright Stephanie Murphy 2020
-            </p>
-        </div>
-    </footer>
-
     
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+
+
+
+
+    <title>Portfolio Stephanie Murphy</title>
+
+</head>
+
+<body>
+
+    <!--- Navbar --->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Stephanie Murphy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto text-right">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contact</a>
+                </li>
+            </ul>
+
+
+        </div>
+    </nav>
+    <!--- Container and grid --->
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-9">
+                <h1 id="portfolio">Portfolio</h1>
+                <p>Samples of completed projects below</p>
+                <hr>
+                <div class="card2 card" style="width: 100%;">
+                    <div class="card-body">
+                        <div class="row">
+
+                            <h3>Kitchen-Blogger </h3>
+                            <a href="https://kitchenblogger.herokuapp.com/" target="_blank">Deployed
+                                Application</a>
+                            <a href="https://github.com/smurphy823/Kitchen-Blogger.git" target="_blank">Git Hub
+                                Repository</a>
+                            <div class="col-sm-9 card-img-top">
+                                <img src="./KitchenBlogger Pic (2).PNG" alt="photo of Kitchen-Blogger website" id="i2">
+                            </div>
+
+                            <h3> DWeather Dashboard </h3>
+                            <a href="https://github.com/smurphy823/Weather-Dashboard.git" target="_blank">Deployed
+                                Application</a>
+                            <a href="https://smurphy823.github.io/Weather-Dashboard/" target="_blank">Git Hub Repository</a>
+                            <div class=" col-sm-9 card-img-top"><img src="./WeatherSS.png"
+                                    alt="photo of Weather-Dashboard" id="i1">
+                            </div>
+
+
+                        </div>
+                        <div class="row">
+                            <h3>Work Day Scheduler</h3>
+                            <a href="https://github.com/smurphy823/Work-Day-Scheduler.git" target="_blank">Deployed
+                                Application</a>
+                            <a href="https://smurphy823.github.io/Work-Day-Scheduler/" target="_blank">
+                                Git Hub Repository</a>
+                            <div class=" col-sm-9 card-img-top">
+                                <img src="./DayPlanner (2).PNG" alt="photo of Work Day Scheduler" id="i3">
+                            </div>
+                            <h3>Read Me Generator</h3>
+                            <a href=" https://www.hippovideo.io/video/play/CZdCGPEU6KoLrHQ-YZhvJFUbIFoiLlB_xLX4R2QBSf4?utm_source=hv-campaigns&hreferer=private&_=1614469988219" target="_blank">Deployed
+                                Application</a>
+                            <a href="https://github.com/smurphy823/ReadMe-Generator.git" target="_blank">Git Hub Repository</a>
+                            <div class="col-sm-9 card-img-top">
+                                <img src="./ReadMeGenerator (2).PNG"
+                                    alt="photo of ReadMe Generator" id="i4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+    </div>
+    </div>
+
+
+
+
+    </div>
+
+    <!---necessary links--->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
+© copyright Stephanie Murphy 2020
